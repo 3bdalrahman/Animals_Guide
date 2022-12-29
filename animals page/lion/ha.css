@@ -32,3 +32,53 @@
       font-family: Arial, Helvetica, sans-serif;
       padding-right: 250px;
   }
+.main {
+    min-height: 100vh;
+    background-image: url(imgs/pexels-tom-fisk-2739666.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.main .content {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+}
+.main .content .name{
+    background-color: rgba(23, 22, 20);
+    opacity: 0.7;
+    width: 548px;
+    height: 100px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #9C793D;
+    margin-left: 50px;
+    margin-top: 1%;
+}
+
+.main .content .text {
+    width: 750px;
+    height: 600px;
+    background: #171614;
+    opacity: 0.7;
+    border-radius: 50px;
+    margin: 1% 5% 0 0;
+}
+
+.main .content .text p {
+    color: #9C793D;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 5%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
