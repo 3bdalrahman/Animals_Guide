@@ -83,7 +83,7 @@
 }
 #im3 {
     width: 270px;
-    height: 307px;
+        height: 307px;
     border-radius: 50px;
     padding: 10px;
     margin-bottom: 10px;
@@ -105,4 +105,29 @@
     font-size: 20px;
     line-height: 36px;
     padding: 5%;
+}
+.contact{
+    min-height: 40vh;
+    width: 100%;
+    background-color: black; 
+}
+.contact h3{
+    padding-top: 50px;
+    font-size: 50px;
+    color: #BB9047;
+    text-align: left;
+    padding-left: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact p{
+    color: #BB9047;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 350px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
 }
